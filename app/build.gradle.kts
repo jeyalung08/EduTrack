@@ -70,4 +70,14 @@ dependencies {
     implementation(libs.firebase.messaging.ktx)
     implementation(libs.firebase.functions.ktx)
     implementation(libs.firebase.analytics)
+
+    // MVVM & Navigation
+    implementation(libs.androidx.lifecycle.viewmodel.compose)
+    implementation(libs.androidx.navigation.compose)
+
+    // Offline Sync (for M4)
+    implementation(libs.androidx.work.runtime.ktx)
+
+    // Image Loading (for M6 Background)
+    implementation(libs.coil.compose)
 }
